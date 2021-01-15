@@ -7,7 +7,7 @@ function loadMenuContent(foodArray){
 		img_wrap.setAttribute("class","img_wrap");
 
 		let img_1 = document.createElement("img");
-		img_1.setAttribute("src",node.src);
+		img_1.setAttribute("src","./assets/"+node.src);
 		img_1.setAttribute("class","food-stuff");
 
 		let description = document.createElement("div");
