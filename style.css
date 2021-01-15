@@ -40,14 +40,48 @@ html,body{
 
 }
 
+.img_wrap{
+	position: relative;
+	display:inline-block;
+}
+
+.food-stuff{
+	height:300px;
+	width:300px;
+	background-color: orange;
+	border: 5px solid black;
+	margin:3px;
+}
+
+.food-stuff:hover {
+	border: 7px solid black;
+}
+
+.food-stuff:hover + .description{
+	display:block;
+
+}
+
+.description{
+	display:none;
+}
+
+.details{
+	width:100%;
+	display:flex;
+	justify-content: center;
+	align-content: center;
+	margin:10px;
+}
+
 #content{
 	display:flex;
 	flex-direction: row;
 	flex-wrap:wrap;
 	justify-content: center;
-	background-color: orange;
 
 	max-width:60%;
 	font-size:1.2em;
 	margin-top:2em;
 }
+
