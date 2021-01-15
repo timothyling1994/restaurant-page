@@ -85,3 +85,46 @@ html,body{
 	margin-top:2em;
 }
 
+@media only screen and (max-width: 631px) {
+	.nav-buttons{
+		margin:5px;
+		width:100px;
+		height:20px;
+	}
+	#title {
+	width:100%;
+	font-size:2.1em;
+	margin:10px;
+	}
+}
+
+@media only screen and (max-width: 1053px) {
+	.food-stuff{
+		height:200px;
+		width:200px;
+
+	}
+}
+
+@media only screen and (max-width: 720px) {
+	.food-stuff{
+		height:100px;
+		width:100px;
+
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.nav-buttons{
+		margin:5px;
+		width:80px;
+		height:20px;
+		font-size:0.4em;
+	}
+	#title {
+	width:100%;
+	font-size:1.8em;
+	margin:10px;
+	}
+}
+
